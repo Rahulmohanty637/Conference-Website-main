@@ -8,7 +8,7 @@ const AuthorGuidelines = () => {
   return (
     <div className="bg-white text-black overflow-x-hidden">
       <Navbar />
-      <div className="mx-auto px-4 py-8">
+      <div className="mx-auto px-14 py-8">
         <h1 className="text-3xl neuton-bold font-bold text-gray-800 mb-6">
           Author Guidelines
         </h1>
