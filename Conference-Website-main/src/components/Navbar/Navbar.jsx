@@ -41,7 +41,7 @@ function Navbar() {
       submenu: [
         {
           name: "Organizing Committee",
-          link: "/",
+          link: "/organizingcommittee",
           external: false,
         },
         {
@@ -130,7 +130,7 @@ function Navbar() {
             <ul
               className={`md:flex md:items-center md:space-x-8 ${
                 open
-                  ? "block absolute top-full left-0 w-full bg-gray-900 p-4"
+                  ? "block absolute top-full left-0 w-full bg-white p-4"
                   : "hidden"
               } md:static md:w-auto md:bg-transparent md:p-0`}
             >
@@ -146,7 +146,7 @@ function Navbar() {
                     {link.name}
                   </a>
                   {link.submenu && (
-                    <ul className="submenu w-60 md:absolute md:bg-white md:shadow-lg md:rounded-base md:mt-2">
+                    <ul className="submenu w-60 md:absolute md:bg-white md:shadow-lg md:rounded-base">
                       {link.submenu.map((subItem, index) => (
                         <li
                           key={index}

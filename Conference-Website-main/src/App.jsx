@@ -19,6 +19,7 @@ import "slick-carousel/slick/slick-theme.css";
 import SightSeeing from "./components/SightSeeing/SightSeeing";
 import INternationalTpc from "./components/InternationalTPC/INternationalTpc";
 import AuthorGuidelines from "./components/AuthorGuidelines/AuthorGuidelines";
+import OrganizingChair from "./components/OrganizingCommittee/OrganizingCommittee";
 
 function App() {
   useEffect(() => {
@@ -40,6 +41,7 @@ function App() {
         <Route path="/sightseeing" element={<SightSeeing />} />
         <Route path="/internationaltpc" element={<INternationalTpc />} />
         <Route path="/authorguidelines" element={<AuthorGuidelines />} />
+        <Route path="/organizingcommittee" element={<OrganizingChair />} />
       </Route>
     )
   );

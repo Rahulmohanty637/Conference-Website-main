@@ -35,9 +35,6 @@ const Patron = () => {
               <p className="mb-3 text-sm italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 Centurion University of Technology and Management, India
               </p>
-              {/* <button className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-              See More
-            </button> */}
             </div>
           </div>
         </div>

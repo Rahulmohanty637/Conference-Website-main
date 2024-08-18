@@ -43,9 +43,7 @@ const AuthorGuidelines = () => {
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             <strong>Paper Length:</strong> The paper should be up to 6 pages in
-            length, including figures, tables, and references. An additional two
-            pages are permitted with an over-length page charge of €125 per
-            page.
+            length, including figures, tables, and references.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
             <strong>Formatting Requirements:</strong>
