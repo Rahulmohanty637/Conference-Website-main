@@ -10,12 +10,12 @@ const OrganizingChair = () => {
       <Navbar />
       <h1
         data-aos="fade-up"
-        className="pt-10 text-3xl text-white font-bold text-center sm:text-4xl "
+        className="pt-8 text-3xl text-black neuton-regular font-bold text-center sm:text-4xl "
       >
-        Organizing Chair
+        Organizing Committee
       </h1>
-      <div className="flex min-h-screen items-center justify-center">
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+      <div data-aos="fade-up" className="flex pt-8 items-center justify-center">
+        <div className="grid grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
           <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
             <div className="h-96 w-72">
               <img

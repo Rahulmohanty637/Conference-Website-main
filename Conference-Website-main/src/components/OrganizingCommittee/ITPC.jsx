@@ -1,8 +1,10 @@
+/* eslint-disable react-refresh/only-export-components */
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { FaArrowUp } from "react-icons/fa";
 import Male from "../../assets/people-01.png";
 import Female from "../../assets/people-02.png";
+import Search from "../../assets/search.png";
 
 const ITPC = () => {
   // State for search query
@@ -383,7 +385,7 @@ const ITPC = () => {
       member.designation.toLowerCase().includes(searchQuery.toLowerCase())
   );
   return (
-    <div className="p-4 bg-white rounded-lg shadow-md">
+    <div className="p-4 bg-white rounded-lg shadow-md flex justify-center">
       <main className="table mb-4">
         <section>
           <h1 className="text-2xl font-semibold text-gray-700">
@@ -398,7 +400,7 @@ const ITPC = () => {
               onChange={(e) => setSearchQuery(e.target.value)}
             />
             <img
-              src="media/search.png"
+              src={Search}
               alt="Search"
               className="absolute right-3 top-2.5 w-5 h-5"
             />
@@ -431,9 +433,9 @@ const ITPC = () => {
             <tbody>
               {filteredMembers.length > 0 ? (
                 filteredMembers.map((member, index) => (
-                  <tr key={member.id}>
-                    <td className="px-4 py-2">{index + 1}</td>
-                    <td className="px-4 py-2 flex items-center">
+                  <tr key={member.id} className="bg-white hover:bg-gray-100">
+                    <td className="px-4 py-2 text-gray-700">{index + 1}</td>
+                    <td className="px-4 py-2 flex items-center text-gray-700">
                       <img
                         src={member.image}
                         alt={member.name}
@@ -441,7 +443,7 @@ const ITPC = () => {
                       />
                       {member.name}
                     </td>
-                    <td className="px-4 py-2">
+                    <td className="px-4 py-2 text-gray-700">
                       <p className="status">{member.designation}</p>
                     </td>
                   </tr>
