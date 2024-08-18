@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 const INternationalTpc = () => {
   return (
@@ -18,15 +19,15 @@ const INternationalTpc = () => {
             </div>
           </div>
         </section> */}
-        <section className="py-12 md:py-20">
+        <section className="py-12 md:py-12 container">
           <div className="container mx-auto px-4 md:px-6 space-y-8">
             <div>
-              <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              <h2 className="text-2xl neuton-bold md:text-3xl font-bold mb-4">
                 Reviewer Qualifications
               </h2>
-              <ul className="text-muted-foreground space-y-2">
+              <ul className="heading font-normal text-gray-500 space-y-2">
                 <li>
-                  <span className="font-semibold">Expertise in AI:</span>{" "}
+                  <span className="font-semibold text-black">Expertise in AI:</span>{" "}
                   Reviewers must possess a deep understanding of the field of
                   Artificial Intelligence, with specific knowledge in areas
                   related to Responsible AI, Generative AI, and Explainable AI.
@@ -34,7 +35,7 @@ const INternationalTpc = () => {
                   methodologies, and challenges in these domains.
                 </li>
                 <li>
-                  <span className="font-semibold">
+                  <span className="font-semibold text-black">
                     Academic and Professional Background:
                   </span>{" "}
                   Reviewers should have an advanced degree (typically a Ph.D.)
@@ -43,7 +44,7 @@ const INternationalTpc = () => {
                   experience, or professional work in AI are essential.
                 </li>
                 <li>
-                  <span className="font-semibold">
+                  <span className="font-semibold text-black">
                     Research and Publication Record:
                   </span>{" "}
                   A strong publication record in top-tier AI conferences or
@@ -52,7 +53,7 @@ const INternationalTpc = () => {
                   areas pertinent to the conference's themes.
                 </li>
                 <li>
-                  <span className="font-semibold">
+                  <span className="font-semibold text-black">
                     Previous Reviewing Experience:
                   </span>{" "}
                   Prior experience as a peer reviewer for academic journals or
@@ -61,7 +62,7 @@ const INternationalTpc = () => {
                   significance, and technical quality of research papers.
                 </li>
                 <li>
-                  <span className="font-semibold">
+                  <span className="font-semibold text-black">
                     Ethical and Responsible AI Knowledge:
                   </span>{" "}
                   Given the focus on Responsible AI, reviewers should be
@@ -70,7 +71,7 @@ const INternationalTpc = () => {
                   technologies.
                 </li>
                 <li>
-                  <span className="font-semibold">
+                  <span className="font-semibold text-black">
                     Commitment to High Standards:
                   </span>{" "}
                   Reviewers must demonstrate a commitment to maintaining high
@@ -79,7 +80,7 @@ const INternationalTpc = () => {
                   constructive feedback to authors.
                 </li>
                 <li>
-                  <span className="font-semibold">
+                  <span className="font-semibold text-black">
                     Professional Integrity and Confidentiality:
                   </span>{" "}
                   Reviewers are expected to uphold the highest standards of
@@ -88,7 +89,7 @@ const INternationalTpc = () => {
                   compromise the objectivity of their reviews.
                 </li>
                 <li>
-                  <span className="font-semibold">
+                  <span className="font-semibold text-black">
                     Active Participation in the AI Community:
                   </span>{" "}
                   Active involvement in the AI research community, such as
@@ -99,12 +100,12 @@ const INternationalTpc = () => {
               </ul>
             </div>
             <div>
-              <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              <h2 className="text-2xl neuton-bold md:text-3xl font-bold mb-4">
                 Reviewer Guidelines
               </h2>
-              <ul className="text-muted-foreground space-y-2">
+              <ul className="heading font-normal text-gray-500 space-y-2">
                 <li>
-                  <span className="font-semibold">
+                  <span className="font-semibold text-black">
                     Relevance and Contribution:
                   </span>{" "}
                   Evaluate whether the paper addresses significant issues in the
@@ -114,7 +115,7 @@ const INternationalTpc = () => {
                 </li>
                 <li>
                   {" "}
-                  <span className="font-semibold">
+                  <span className="font-semibold text-black">
                     Clarity and Organization:
                   </span>{" "}
                   Assess the clarity of the writing and the logical flow of the
@@ -123,7 +124,7 @@ const INternationalTpc = () => {
                   conclusion.
                 </li>
                 <li>
-                  <span className="font-semibold">Technical Soundness:</span>
+                  <span className="font-semibold text-black">Technical Soundness:</span>
                   Verify that the methods and experiments are rigorous and
                   scientifically sound. Reviewers should check for appropriate
                   use of algorithms, models, and statistical analyses, ensuring
@@ -131,14 +132,14 @@ const INternationalTpc = () => {
                 </li>
                 <li>
                   {" "}
-                  <span className="font-semibold">Ethical Considerations:</span>
+                  <span className="font-semibold text-black">Ethical Considerations:</span>
                   Ensure that the paper addresses ethical implications relevant
                   to Responsible AI. Papers should include discussions on the
                   potential impact of the work, addressing issues like fairness,
                   transparency, accountability, and societal implications.
                 </li>
                 <li>
-                  <span className="font-semibold">
+                  <span className="font-semibold text-black">
                     Generative and Explainable AI Focus:
                   </span>{" "}
                   For papers focusing on Generative and Explainable AI, assess
@@ -148,12 +149,12 @@ const INternationalTpc = () => {
                 </li>
                 <li>
                   {" "}
-                  <span className="font-semibold">Originality:</span> Evaluate
+                  <span className="font-semibold text-black">Originality:</span> Evaluate
                   the novelty of the paper. It should present original research
                   that is not a mere extension of previous work.
                 </li>
                 <li>
-                  <span className="font-semibold">
+                  <span className="font-semibold text-black">
                     References and Citations:
                   </span>{" "}
                   Check the adequacy and accuracy of references. The paper
@@ -161,7 +162,7 @@ const INternationalTpc = () => {
                   context of existing research.
                 </li>
                 <li>
-                  <span className="font-semibold">
+                  <span className="font-semibold text-black">
                     Length and Completeness:
                   </span>{" "}
                   Ensure the paper is within the length limits specified by the
@@ -169,7 +170,7 @@ const INternationalTpc = () => {
                   figures, and appendices.
                 </li>
                 <li>
-                  <span className="font-semibold">
+                  <span className="font-semibold text-black">
                     Review Process Integrity:
                   </span>{" "}
                   Maintain confidentiality of the submission and provide a fair
@@ -177,7 +178,7 @@ const INternationalTpc = () => {
                   impartiality of the review.
                 </li>
                 <li>
-                  <span className="font-semibold">Constructive Feedback:</span>{" "}
+                  <span className="font-semibold text-black">Constructive Feedback:</span>{" "}
                   Provide feedback that can help authors improve their work,
                   even if the paper is not accepted. Highlight strengths as well
                   as areas for improvement.
@@ -185,13 +186,14 @@ const INternationalTpc = () => {
               </ul>
             </div>
             <div>
-              <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              <h2 className="text-2xl md:text-3xl neuton-bold font-bold mb-4">
                 Registeration Form
               </h2>
             </div>
           </div>
         </section>
       </div>
+      <Footer/>
     </div>
   );
 };
