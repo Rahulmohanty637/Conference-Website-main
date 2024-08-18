@@ -100,8 +100,8 @@ const profiles = [
 
 const ProfileGrid = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <div className="grid gap-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    <div className="min-h-screen mt-20 flex items-center justify-center">
+      <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {profiles.map((profile, index) => (
           <ProfileCard
             key={index}

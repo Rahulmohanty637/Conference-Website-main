@@ -385,17 +385,17 @@ const ITPC = () => {
       member.designation.toLowerCase().includes(searchQuery.toLowerCase())
   );
   return (
-    <div className="p-4 bg-white rounded-lg shadow-md flex justify-center">
-      <main className="table mb-4">
+    <div className="py-4 mt-20 bg-white rounded-lg shadow-md flex justify-center">
+      <main className="mb-4">
         <section>
-          <h1 className="text-2xl font-semibold text-gray-700">
-            CUTM IEEE Student Branch 2024-25
+          <h1 className="md:text-5xl text-2xl mb-8 neuton-regular font-semibold text-gray-700">
+            International Technical Program Committee
           </h1>
-          <div className="relative mt-3">
+          <div className="relative heading mt-3">
             <input
               type="search"
               placeholder="Search Data..."
-              className="w-full px-4 py-2 border rounded-lg text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="w-full px-4 py-2 border-2 rounded-lg text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
@@ -406,26 +406,26 @@ const ITPC = () => {
             />
           </div>
         </section>
-        <section className="table__body overflow-x-auto">
-          <table className="w-full table-auto">
+        <section className="">
+          <table className="heading text-xl font-medium">
             <thead>
               <tr className="bg-gray-300">
-                <th className="px-4 py-2 text-left text-gray-700">
+                <th className="px-8 py-2 text-left text-gray-700 hover:text-primary">
                   Sl. No.{" "}
                   <span className="inline-flex items-center justify-center w-6 h-6 ml-2 rounded-full border border-gray-700">
-                    <FaArrowUp className="text-gray-700" />
+                    <FaArrowUp />
                   </span>
                 </th>
-                <th className="px-4 py-2 text-left text-gray-700">
+                <th className="px-4 py-2 text-left text-gray-700 hover:text-primary">
                   Members{" "}
                   <span className="inline-flex items-center justify-center w-6 h-6 ml-2 rounded-full border border-gray-700">
-                    <FaArrowUp className="text-gray-700" />
+                    <FaArrowUp />
                   </span>
                 </th>
-                <th className="px-4 py-2 text-left text-gray-700">
+                <th className="px-4 py-2 text-left text-gray-700 hover:text-primary">
                   Designation{" "}
                   <span className="inline-flex items-center justify-center w-6 h-6 ml-2 rounded-full border border-gray-700">
-                    <FaArrowUp className="text-gray-700" />
+                    <FaArrowUp/>
                   </span>
                 </th>
               </tr>
@@ -433,9 +433,12 @@ const ITPC = () => {
             <tbody>
               {filteredMembers.length > 0 ? (
                 filteredMembers.map((member, index) => (
-                  <tr key={member.id} className="bg-white hover:bg-gray-100">
-                    <td className="px-4 py-2 text-gray-700">{index + 1}</td>
-                    <td className="px-4 py-2 flex items-center text-gray-700">
+                  <tr
+                    key={member.id}
+                    className="bg-gray-100 hover:bg-white text-gray-700 hover:text-primary"
+                  >
+                    <td className="px-4 py-2 text-center">{index + 1}</td>
+                    <td className="px-4 py-2 flex items-center">
                       <img
                         src={member.image}
                         alt={member.name}
@@ -443,7 +446,7 @@ const ITPC = () => {
                       />
                       {member.name}
                     </td>
-                    <td className="px-4 py-2 text-gray-700">
+                    <td className="px-4 py-2">
                       <p className="status">{member.designation}</p>
                     </td>
                   </tr>
