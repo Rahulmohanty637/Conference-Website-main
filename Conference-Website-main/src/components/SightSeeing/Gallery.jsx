@@ -58,8 +58,7 @@ const Gallery = () => {
     {
       name: "",
       coverImage: "/images/sydney.jpg",
-      description:
-        "",
+      description: "",
       images: [
         "/images/sydney1.jpg",
         "/images/sydney2.jpg",
