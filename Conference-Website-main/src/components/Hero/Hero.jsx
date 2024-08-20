@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="container min-h-[620px] flex items-center">
           <div className="w-full md:w-[850px] mx-auto text-center space-y-5 heading">
             <p data-aos="fade-up" className="text-primary text-2xl">
-              2024 International Conference on
+              2025 International Conference on
             </p>
             <h1
               data-aos="fade-up"
@@ -33,7 +33,7 @@ const Hero = () => {
             <p data-aos="fade-up" data-aos-delay="500" className="text-2xl md:text-3xl">
               Advancing AI with Responsibility, Creativity, and Transparency{" "}
             </p>
-            <h3 data-aos="fade-up" data-aos-delay="500" className="text-2xl md:text-3xl">August 1-3, 2024 | Bhubaneswar, Odisha</h3>
+            <h3 data-aos="fade-up" data-aos-delay="500" className="text-2xl md:text-3xl">February 28-28, 2025 | Bhubaneswar, Odisha</h3>
             <button
               data-aos="fade-up"
               data-aos-delay="700"

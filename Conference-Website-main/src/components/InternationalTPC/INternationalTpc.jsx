@@ -1,24 +1,14 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
+import { Link } from "react-router-dom";
+import form from "../../assets/form.png";
 
 const INternationalTpc = () => {
   return (
     <div className="bg-white text-black overflow-x-hidden">
       <Navbar />
       <div>
-        {/* <section className="bg-primary text-white neuton-regular py-20 md:py-32">
-          <div className="container mx-auto px-4 md:px-6">
-            <div className="text-center space-y-4">
-              <h1 className="text-4xl md:text-6xl font-bold">
-                Responsible, Generative and Explainable AI (ResGenXAI)
-              </h1>
-              <p className="text-lg md:text-xl">
-                September 15-17, 2023 | San Francisco, CA
-              </p>
-            </div>
-          </div>
-        </section> */}
         <section className="py-12 md:py-12 container">
           <div className="container mx-auto px-4 md:px-6 space-y-8">
             <div>
@@ -27,7 +17,9 @@ const INternationalTpc = () => {
               </h2>
               <ul className="heading font-normal text-gray-500 space-y-2">
                 <li>
-                  <span className="font-semibold text-black">Expertise in AI:</span>{" "}
+                  <span className="font-semibold text-black">
+                    Expertise in AI:
+                  </span>{" "}
                   Reviewers must possess a deep understanding of the field of
                   Artificial Intelligence, with specific knowledge in areas
                   related to Responsible AI, Generative AI, and Explainable AI.
@@ -124,7 +116,9 @@ const INternationalTpc = () => {
                   conclusion.
                 </li>
                 <li>
-                  <span className="font-semibold text-black">Technical Soundness:</span>
+                  <span className="font-semibold text-black">
+                    Technical Soundness:
+                  </span>
                   Verify that the methods and experiments are rigorous and
                   scientifically sound. Reviewers should check for appropriate
                   use of algorithms, models, and statistical analyses, ensuring
@@ -132,7 +126,9 @@ const INternationalTpc = () => {
                 </li>
                 <li>
                   {" "}
-                  <span className="font-semibold text-black">Ethical Considerations:</span>
+                  <span className="font-semibold text-black">
+                    Ethical Considerations:
+                  </span>
                   Ensure that the paper addresses ethical implications relevant
                   to Responsible AI. Papers should include discussions on the
                   potential impact of the work, addressing issues like fairness,
@@ -149,9 +145,11 @@ const INternationalTpc = () => {
                 </li>
                 <li>
                   {" "}
-                  <span className="font-semibold text-black">Originality:</span> Evaluate
-                  the novelty of the paper. It should present original research
-                  that is not a mere extension of previous work.
+                  <span className="font-semibold text-black">
+                    Originality:
+                  </span>{" "}
+                  Evaluate the novelty of the paper. It should present original
+                  research that is not a mere extension of previous work.
                 </li>
                 <li>
                   <span className="font-semibold text-black">
@@ -178,22 +176,33 @@ const INternationalTpc = () => {
                   impartiality of the review.
                 </li>
                 <li>
-                  <span className="font-semibold text-black">Constructive Feedback:</span>{" "}
+                  <span className="font-semibold text-black">
+                    Constructive Feedback:
+                  </span>{" "}
                   Provide feedback that can help authors improve their work,
                   even if the paper is not accepted. Highlight strengths as well
                   as areas for improvement.
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="">
               <h2 className="text-2xl md:text-3xl neuton-bold font-bold mb-4">
                 Registeration Form
               </h2>
+              <div className="flex">
+                <Link to="https://forms.zohopublic.in/rahulmohanty637/form/ReviewerForm/formperma/-FMox_h3vHZLZkoXlDCxdnD0e7aNICOifwJXlHRj2hI">
+                  <button className="btn bg-purple-600 text-base text-white font-semibold px-3 py-1 rounded duration-500 hover:bg-[#a037c9] w-full">
+                    Register Now
+                  </button>
+                  <div className="text-center mt-2">OR</div>
+                  <img src={form} alt=""></img>
+                </Link>
+              </div>
             </div>
           </div>
         </section>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

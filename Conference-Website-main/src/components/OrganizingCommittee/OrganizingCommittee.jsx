@@ -82,7 +82,7 @@ const OrganizingChair = () => {
           </div>
         </div>
       </div>
-      <ProfileGrid />
+      {/* <ProfileGrid /> */}
       <ITPC />
       <Footer />
     </div>

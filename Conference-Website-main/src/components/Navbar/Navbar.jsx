@@ -181,7 +181,7 @@ function Navbar() {
                 </li>
               ))}
               <li className="md:hidden mt-4">
-                <Link to="/contact" onClick={handleContactClick}>
+                <Link to="https://forms.zohopublic.in/rahulmohanty637/form/ReviewerForm/formperma/-FMox_h3vHZLZkoXlDCxdnD0e7aNICOifwJXlHRj2hI">
                   <button className="btn bg-purple-600 text-base text-white font-semibold px-3 py-1 rounded duration-500 hover:bg-[#a037c9] w-full">
                     Register Now
                   </button>
@@ -189,9 +189,8 @@ function Navbar() {
               </li>
             </ul>
             <Link
-              to="/contact"
+              to="https://forms.zohopublic.in/rahulmohanty637/form/ReviewerForm/formperma/-FMox_h3vHZLZkoXlDCxdnD0e7aNICOifwJXlHRj2hI"
               className="hidden md:block"
-              onClick={handleContactClick}
             >
               <button className="btn bg-purple-600 text-base text-white font-semibold px-3 py-1 rounded duration-500 hover:bg-[#c9379b] w-full">
                 Register Now

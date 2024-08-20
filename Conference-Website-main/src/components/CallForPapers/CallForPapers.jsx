@@ -51,22 +51,19 @@ const ItemList = () => {
   ];
 
   return (
-    <div>
-      <div className="flex justify-evenly text-start ">
-      {
-        PaperData.map((paper) =>
-          <div key={paper.id} className="">
-            <h2 className="text-black-900 text-xl">{paper.name}</h2>
-            <ul className="opacity-50 list-disc">
-              {paper.items.content.map((item) =>
-                <li key={item} className="text-sm">{item}</li>
-              )}
-            </ul>
-          </div>
-        )
-
-      }
-      </div>
+    <div className="flex flex-col md:flex-row justify-evenly text-start">
+      {PaperData.map((paper) => (
+        <div key={paper.id} className="mb-4 md:mb-0">
+          <h2 className="text-black-900 text-xl">{paper.name}</h2>
+          <ul className="opacity-50 list-disc pl-5">
+            {paper.items.content.map((item) => (
+              <li key={item} className="text-sm">
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
     </div>
   );
 };
@@ -78,7 +75,12 @@ const CallForPapers = () => {
       <div className="container my-16 heading space-y-4">
         <div className="text-center mx-auto space-y-2">
           <h1 className="text-2xl font-bold text-dark">Call for Papers</h1>
-          <h3 className="opacity-50">Papers in the main technical program must describe high-quality, original research.<br/>The topics of interest include but not limited to : </h3>
+          <h3 className="opacity-50">
+            Papers in the main technical program must describe high-quality,
+            original research.
+            <br />
+            The topics of interest include but not limited to :{" "}
+          </h3>
           <p className="">
             <ItemList />
           </p>
