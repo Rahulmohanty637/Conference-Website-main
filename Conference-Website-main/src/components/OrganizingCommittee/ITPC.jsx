@@ -12,95 +12,184 @@ const ITPC = () => {
 
   const members = [
     {
-      title: "Organizing Chair",
-      name: "Prof. (Dr.) Sujata Chakravarty",
-      position: "Dean, SoET",
-      department: "Department of Computer Science & Engineering",
-      organization:
-        "Centurion University of Technology and Management, Bhubaneswar, India",
-      image: Female,
-    },
-    {
-      title: "Organizing Chair",
-      name: "Mr. Saneev Kumar Das",
-      department: "Department of Computer Science & Engineering",
-      organization:
-        "Centurion University of Technology and Management, Bhubaneswar, India",
-      image: Male,
-    },
-    {
-      title: "Organizing Chair",
-      name: "Mr. Sujit Bebortta",
-      department: "Department of Computer Science",
-      organization: "Ravenshaw University, Cuttack, India",
-      image: Male,
-    },
-    {
-      title: "Honorary Advisory Board",
-      name: "Prof. (Dr.) Pradipta Kishore Dash",
-      organization:
-        "Siksha ‘O’ Anusandhan (Deemed to be University), Bhubaneswar, India",
-      image: Male,
-    },
-    {
-      title: "Honorary Advisory Board",
-      name: "Prof. (Dr.) Ganapati Panda",
-      organization: "C.V. Raman Global University, Bhubaneswar, India",
-      image: Male,
-    },
-    {
-      title: "Honorary Advisory Board",
-      name: "Prof. (Dr.) Bansidhar Majhi",
-      position: "Vice Chancellor",
-      organization: "V.S.S.U.T., Burla, India",
-      image: Male,
-    },
-    {
-      title: "Chief Advisory Board",
-      name: "Prof. (Dr.) Ashish Ghosh",
-      position: "Professor & Former Head, Machine Intelligence Unit",
-      department: "Former In-Charge, Center for Soft Computing Research",
-      organization: "Indian Statistical Institute, Kolkata, India",
-      image: Male,
-    },
-    {
-      title: "Chief Advisory Board",
-      name: "Prof. (Dr.) Sudeep Tanwar",
+      title: "Honorary Chair",
+      name: "Dr. Radhakanta Padhi",
       position: "Professor",
-      organization: "Nirma University, India",
-      department:
-        "Visiting Professor, Jan Wyzykowski University, Poland, University of Pitesti, Romania",
-      image: Male,
-    },
-    {
-      title: "Publicity Chair",
-      name: "Dr. Shom Prasad Das",
-      organization: "Birla Global University, Bhubaneswar, India",
-      image: Male,
-    },
-    {
-      title: "Editorial and Publication Board",
-      name: "Prof. (Dr.) Sujata Chakravarty",
-      position: "Dean, SoET",
-      department: "Department of Computer Science & Engineering",
+      department: "Department of Aerospace Engineering",
       organization:
-        "Centurion University of Technology and Management, Bhubaneswar, India",
+        "Indian Institute of Science, Bangalore",
+      image: Male,
+    },
+    {
+      title: "Honorary Chair",
+      name: "Dr. Subhransu Ranjan Samantaray",
+      position: "Professor, HoS",
+      department: "School of Electrical Sciences",
+      organization:
+        "Indian Institute of Technology, Bhubaneswar",
+      image: Male,
+    },
+    {
+      title: "General Chair",
+      name: "Dr. Sujata Chakravarty",
+      position: "Professor, Dean",
+      department: "School of Engineering and Technology",
+      organization:
+        "Centurion University of Technology and Management, Bhubaneswar",
       image: Female,
     },
     {
-      title: "Editorial and Publication Board",
-      name: "Mr. Saneev Kumar Das",
-      department: "Department of Computer Science & Engineering",
+      title: "General Chair",
+      name: "Dr. Debi Prosad Dogra",
+      position: "Associate Professor",
+      department: "School of Electrical Sciences",
       organization:
-        "Centurion University of Technology and Management, Bhubaneswar, India",
+        "Indian Institute of Technology, Bhubaneswar",
       image: Male,
     },
     {
-      title: "Editorial and Publication Board",
-      name: "Mr. Sujit Bebortta",
-      department: "Department of Computer Science",
-      organization: "Ravenshaw University, Cuttack, India",
+      title: "Technical Program Chair",
+      name: "Dr. Tapan Kumar Gandhi",
+      position: "Associate Professor",
+      department: "SDepartment of Electrical Engineering",
+      organization:
+        "Indian Institute of Technology, Delhi",
       image: Male,
+    },
+    {
+      title: "Technical Program Chair",
+      name: "Dr. Tanmoy Roy Choudhury",
+      position: "Assistant Professor",
+      department: "Electrical Engineering",
+      organization:
+        "National Institute of Technology, Rourkela",
+      image: Male,
+    },
+    {
+      title: "Technical Program Committee",
+      name: "Dr. Durga Pasad Mohapatra",
+      position: "Professor",
+      department: "Computer Science and Engineering",
+      organization:
+        "National Institute of Technology, Rourkela",
+      image: Male,
+    },
+    {
+      title: "Technical Program Committee",
+      name: "Dr. Rakesh Chandra Balabantaray",
+      position: "Professor and Dean, Academics",
+      department: "Computer Science and Engineering",
+      organization:
+        "International Institute of Information Technology, Bhubaneswar",
+      image: Male,
+    },
+    {
+      title: "Technical Program Committee",
+      name: "Dr. Sanjay Saxena",
+      position: "Assistant Professor",
+      department: "Computer Science and Engineering",
+      organization:
+        "International Institute of Information Technology, Bhubaneswar",
+      image: Male,
+    },
+    {
+      title: "Technical Program Committee",
+      name: "Dr. Renu Sharma",
+      position: "Professor and Head",
+      department: "Department of Electrical Engineering",
+      organization:
+        "Institute of Technical Education and Research, SoA University, Bhubaneswar",
+      image: Male,
+    },
+    {
+      title: "Technical Program Committee",
+      name: "Dr. Satyabrata Dash",
+      position: "Assistant Professor",
+      department: "Department of Computer Science and Engineering",
+      organization:
+        "Gandhi Institute of Technology and Management (GITAM), Visakhapatnam",
+      image: Male,
+    },
+    {
+      title: "Organizing Secretary",
+      name: "Dr. Manohar Mishra",
+      position: "Professor",
+      department: "Department of Electrical and Electronics Engineering",
+      organization:
+        "Institute of Technical Education and Research, SoA University, Bhubaneswar",
+      image: Male,
+    },
+    {
+      title: "Organizing Secretary",
+      name: "Saneev Kumar Das",
+      position: "Assistant Professor",
+      department: "Department of Computer Science and Engineering",
+      organization:
+        "Centurion University of Technology and Management, Bhubaneswar",
+      image: Male,
+    },
+    {
+      title: "Organizing Secretary",
+      name: "Sujit Bebortta",
+      position: "Assistant Professor",
+      department: "Department of Computer Science",
+      organization:
+        "Ravenshaw University, Cuttack",
+      image: Male,
+    },
+    {
+      title: "Organizing Secretary",
+      name: "Dr. Satyasis Mishra",
+      position: "Professor",
+      department: "Department of Electronics and Communication Engineering",
+      organization:
+        "Centurion University of Technology and Management, Bhubaneswar",
+      image: Male,
+    },
+    {
+      title: "Finance Chair",
+      name: "Dr. Sudhansu Kumar Samal",
+      position: "Associate Professor",
+      department: "Department of Electrical Engineering",
+      organization:
+        "Centurion University of Technology and Management, Bhubaneswar",
+      image: Male,
+    },
+    {
+      title: "Publication Chair",
+      name: "Dr. Ramesh Chandra Mohanty",
+      position: "Professor",
+      department: "School of Engineering and Technology",
+      organization:
+        "Centurion University of Technology and Management, Bhubaneswar",
+      image: Male,
+    },
+    {
+      title: "Publication Chair",
+      name: "Dr. Rajendra Khadanga",
+      position: "Associate Professor",
+      department: "Department of Electrical Engineering",
+      organization:
+        "Centurion University of Technology and Management, Bhubaneswar",
+      image: Male,
+    },
+    {
+      title: "Publication Chair",
+      name: "Dr. Ranjeeta Patel",
+      position: "Associate Professor",
+      department: "School of Electrical Engineering",
+      organization:
+        "KIIT Deemed to be University, Bhubaneswar",
+      image: Female,
+    },
+    {
+      title: "Publication Chair",
+      name: "Dr. Ranjeeta Patel",
+      position: "Associate Professor",
+      department: "School of Electrical Engineering",
+      organization:
+        "KIIT Deemed to be University, Bhubaneswar",
+      image: Female,
     },
   ];
 

@@ -33,7 +33,7 @@ const Hero = () => {
             <p data-aos="fade-up" data-aos-delay="500" className="text-2xl md:text-3xl">
               Advancing AI with Responsibility, Creativity, and Transparency{" "}
             </p>
-            <h3 data-aos="fade-up" data-aos-delay="500" className="text-2xl md:text-3xl">February 28-28, 2025 | Bhubaneswar, Odisha</h3>
+            <h3 data-aos="fade-up" data-aos-delay="500" className="text-2xl md:text-3xl">September 10 - September 12, 2025 | Bhubaneswar, Odisha</h3>
             <button
               data-aos="fade-up"
               data-aos-delay="700"

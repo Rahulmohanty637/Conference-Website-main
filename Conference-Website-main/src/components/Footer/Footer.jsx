@@ -52,7 +52,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="sm:block hidden">Contact us: +91 123456789</div>
+          <div className="sm:block hidden">Contact us: +91 7978029866, saneev.das@cutm.ac.in</div>
           <nav className="hidden md:block">
            
           </nav>

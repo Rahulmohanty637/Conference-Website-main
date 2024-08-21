@@ -55,16 +55,6 @@ const Gallery = () => {
         "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/06/6e/b4/cc.jpg",
       ],
     },
-    {
-      name: "",
-      coverImage: "/images/sydney.jpg",
-      description: "",
-      images: [
-        "/images/sydney1.jpg",
-        "/images/sydney2.jpg",
-        "/images/sydney3.jpg",
-      ],
-    },
   ];
 
   const openSlider = (place) => setSelectedPlace(place);

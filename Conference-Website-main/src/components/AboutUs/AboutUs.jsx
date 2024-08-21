@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 
-const AboutUs = ({ tagline, passage, reverse, img,url }) => {
+const AboutUs = ({ tagline, passage, reverse, img, url }) => {
   return (
     <section>
       <main className="bg-slate-100">
@@ -21,9 +21,11 @@ const AboutUs = ({ tagline, passage, reverse, img,url }) => {
                 {passage}
               </p>
               <div className="space-x-4">
-                <a href={url}><button className="rounded-md border-2 border-primary bg-primary px-4 py-2 text-sm text-white transition-colors duration-300 hover:bg-primary/80">
-                Get Started
-              </button></a>
+                <a href={url}>
+                  <button className="rounded-md border-2 border-primary bg-primary px-4 py-2 text-sm text-white transition-colors duration-300 hover:bg-primary/80">
+                    Get Started
+                  </button>
+                </a>
               </div>
             </div>
             <div

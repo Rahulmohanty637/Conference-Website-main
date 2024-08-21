@@ -187,7 +187,7 @@ const INternationalTpc = () => {
             </div>
             <div className="">
               <h2 className="text-2xl md:text-3xl neuton-bold font-bold mb-4">
-                Registeration Form
+                Registration Form
               </h2>
               <div className="flex">
                 <Link to="https://forms.zohopublic.in/rahulmohanty637/form/ReviewerForm/formperma/-FMox_h3vHZLZkoXlDCxdnD0e7aNICOifwJXlHRj2hI">

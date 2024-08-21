@@ -13,7 +13,7 @@ const OrganizingChair = () => {
         data-aos="fade-up"
         className="pt-8 text-3xl text-black neuton-regular font-bold text-center sm:text-4xl "
       >
-        Organizing Committee
+        Chief Patron
       </h1>
       <div data-aos="fade-up" className="flex pt-8 items-center justify-center">
         <div className="grid grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
