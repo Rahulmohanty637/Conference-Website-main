@@ -1,8 +1,11 @@
 {
   "redirects": [
     {
-      "source": "/(.*)",
-      "destination": "https://www.resgenxai.co.in/$1",
+      "source": "/",
+      "destination": "https://www.resgenxai.co.in",
+      "has": [
+        { "type": "host", "value": "resgenxai.co.in" }
+      ],
       "permanent": true
     }
   ]
