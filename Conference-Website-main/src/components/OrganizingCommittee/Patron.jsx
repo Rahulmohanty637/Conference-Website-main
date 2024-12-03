@@ -20,7 +20,7 @@ const Patron = () => {
             <div className="h-96 w-72">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-1 group-hover:scale-125"
-                src="https://centurionuniv.edu.in/faculty/public/images/1599715559.jpg"
+                src="https://ibb.co/Db4MDnc"
                 alt=""
               />
             </div>
