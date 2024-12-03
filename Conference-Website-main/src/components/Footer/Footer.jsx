@@ -34,23 +34,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-3 items-center">
           <div className="flex items-center justify-center gap-3">
             <img src="" alt="" className="w-16 " />
-            <div>
-              {/* Social Handle */}
-              <div className="flex items-center gap-3">
-                <a href="#">
-                  <FaInstagram className="text-3xl hover:text-primary duration-300" />
-                </a>
-                <a href="#">
-                  <FaFacebook className="text-3xl hover:text-primary duration-300" />
-                </a>
-                <a href="#">
-                  <FaLinkedin className="text-3xl hover:text-primary duration-300" />
-                </a>
-                <a href="#">
-                  <FaTwitter className="text-3xl hover:text-primary duration-300" />
-                </a>
-              </div>
-            </div>
+
           </div>
           <div className="sm:block hidden">Contact us: +91 7978029866, saneev.das@cutm.ac.in</div>
           <nav className="hidden md:block">
