@@ -1,12 +1,8 @@
 {
-  "redirects": [
+  "rewrites": [
     {
-      "source": "/",
-      "destination": "https://www.resgenxai.co.in",
-      "has": [
-        { "type": "host", "value": "resgenxai.co.in" }
-      ],
-      "permanent": true
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
