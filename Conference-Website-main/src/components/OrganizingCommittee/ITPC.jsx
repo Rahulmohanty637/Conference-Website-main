@@ -112,15 +112,6 @@ const ITPC = () => {
     },
     {
       title: "Organizing Secretary",
-      name: "Dr. Manohar Mishra",
-      position: "Professor",
-      department: "Department of Electrical and Electronics Engineering",
-      organization:
-        "Institute of Technical Education and Research, SoA University, Bhubaneswar",
-      image: Male,
-    },
-    {
-      title: "Organizing Secretary",
       name: "Saneev Kumar Das",
       position: "Assistant Professor",
       department: "Department of Computer Science and Engineering",
@@ -135,6 +126,24 @@ const ITPC = () => {
       department: "Department of Computer Science",
       organization:
         "Ravenshaw University, Cuttack",
+      image: Male,
+    },
+    {
+      title: "Organizing Secretary",
+      name: "Dr. Manoj Kumar Debnath",
+      position: "Associate Professor",
+      department: "Department of Electrical and Electronics Engineering",
+      organization:
+        "Institute of Technical Education and Research, SoA University, Bhubaneswar",
+      image: Male,
+    },
+    {
+      title: "Organizing Secretary",
+      name: "Dr. Manohar Mishra",
+      position: "Professor",
+      department: "Department of Electrical and Electronics Engineering",
+      organization:
+        "Institute of Technical Education and Research, SoA University, Bhubaneswar",
       image: Male,
     },
     {
