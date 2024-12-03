@@ -5,7 +5,7 @@ import Hero from "../../components/Hero/Hero";
 import Footer from "../../components/Footer/Footer";
 import AboutUs from "../../components/AboutUs/AboutUs";
 import Banner1 from "../../assets/main-gate.jpg";
-import Banner2 from "../../assets/Banner2.webp";
+import Banner2 from "../../assets/Banner1.webp";
 import "../../App.css";
 import ImportantDates from "../../components/ImportantDates/ImportantDates";
 import RegistrationTable from "../../components/RegistrationInfo/RegistrationTable";
@@ -108,7 +108,7 @@ advancements in artificial intelligence. The scope of the conference includes Re
       <AboutUs
         tagline="About ResGenXAI-2025"
         passage={passage2}
-        img={Banner2}
+        img={Banner1}
         url="https://conferences.ieee.org/conferences_events/conferences/conferencedetails/64788"
       />
       <ImportantDates />
