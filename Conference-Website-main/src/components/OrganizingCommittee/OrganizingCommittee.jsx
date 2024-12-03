@@ -21,7 +21,7 @@ const OrganizingChair = () => {
             <div className="h-96 w-72">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-1 group-hover:scale-125"
-                src="../../assets/pic1.jpg"
+                src="Conference-Website-main/src/assets/pic1.jpg"
                 alt=""
               />
             </div>
@@ -42,7 +42,7 @@ const OrganizingChair = () => {
             <div className="h-96 w-72">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-1 group-hover:scale-125"
-                src="../../assets/pic2.jpg"
+                src="Conference-Website-main/src/assets/pic2.jpg"
                 alt=""
               />
             </div>
@@ -73,7 +73,7 @@ const OrganizingChair = () => {
             <div className="h-96 w-72">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-1 group-hover:scale-125"
-                src="../../assets/pic3.jpg"
+                src="Conference-Website-main/src/assets/pic3.jpg"
                 alt=""
               />
             </div>
@@ -94,7 +94,7 @@ const OrganizingChair = () => {
             <div className="h-96 w-72">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-1 group-hover:scale-125"
-                src="../../assets/pic4.jpg"
+                src="Conference-Website-main/src/assets/pic4.jpg"
                 alt=""
               />
             </div>
