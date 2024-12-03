@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import logo from "../../assets/Logo for the website.png";
+import logo1 from "../../assets/Logo_ResGenXAI.png";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
@@ -84,11 +85,11 @@ function Navbar() {
             Responsible, Generative and Explainable AI (ResGenXAI)
           </h1>
         </div>
-        <div className="flex items-center space-x-4">
-          {/* <button className="btn bg-purple-600 text-base text-white font-semibold px-3 py-1 rounded duration-500 hover:bg-[#c9379b] w-full">
-            Register Now
-          </button> */}
-        </div>
+        <img
+            src={logo1}
+            alt="logo1"
+            className="w-[154px] h-[154px] object-contain md:w-32"
+          />
       </header>
       <nav className="sticky top-0 shadow-md w-full border border-gray-400 z-50 bg-gray-400">
         <div className="container mx-4 px-4">
