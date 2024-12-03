@@ -108,7 +108,7 @@ advancements in artificial intelligence. The scope of the conference includes Re
       <AboutUs
         tagline="About ResGenXAI-2025"
         passage={passage2}
-        img={Banner1}
+        img={Banner2}
         url="https://conferences.ieee.org/conferences_events/conferences/conferencedetails/64788"
       />
       <ImportantDates />
