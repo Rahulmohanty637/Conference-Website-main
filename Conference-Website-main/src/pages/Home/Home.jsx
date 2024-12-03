@@ -4,7 +4,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Hero from "../../components/Hero/Hero";
 import Footer from "../../components/Footer/Footer";
 import AboutUs from "../../components/AboutUs/AboutUs";
-import Banner1 from "../../assets/Banner1.webp";
+import Banner1 from "../../assets/main-gate.jpg";
 import Banner2 from "../../assets/Banner2.webp";
 import "../../App.css";
 import ImportantDates from "../../components/ImportantDates/ImportantDates";
