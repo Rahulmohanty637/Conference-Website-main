@@ -12,7 +12,7 @@ const AboutUs = ({ tagline, passage, reverse, img, url }) => {
               data-aos="fade-right"
               data-aos-duration="400"
               data-aos-once="true"
-              className={`flex flex-col items-start gap-4 heading text-left md:items-start md:p-8 md:text-left ${
+              className={`flex flex-col items-center gap-4 heading text-left md:p-8  ${
                 reverse ? "md:order-last" : ""
               } `}
             >
@@ -37,7 +37,10 @@ const AboutUs = ({ tagline, passage, reverse, img, url }) => {
               <img
                 src={img}
                 alt="No image"
-                className="max-auto w-full hover:drop-shadow-md"
+                className={`flex flex-col items-center gap-4 heading text-left md:p-8  ${
+                reverse ? "md:order-last" : ""
+              } `}
+                //className="max-auto w-full hover:drop-shadow-md"
               />
             </div>
           </div>
