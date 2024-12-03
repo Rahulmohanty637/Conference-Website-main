@@ -191,15 +191,6 @@ const ITPC = () => {
         "KIIT Deemed to be University, Bhubaneswar",
       image: Female,
     },
-    {
-      title: "Publication Chair",
-      name: "Dr. Ranjeeta Patel",
-      position: "Associate Professor",
-      department: "School of Electrical Engineering",
-      organization:
-        "KIIT Deemed to be University, Bhubaneswar",
-      image: Female,
-    },
   ];
 
   // Committee Members
