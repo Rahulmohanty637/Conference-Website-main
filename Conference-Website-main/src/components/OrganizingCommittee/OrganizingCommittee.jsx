@@ -21,7 +21,7 @@ const OrganizingChair = () => {
             <div className="h-96 w-72">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-1 group-hover:scale-125"
-                src="../assets/pic1.jpg"
+                src="https://ibb.co/HGfXCmk"
                 alt=""
               />
             </div>
@@ -42,7 +42,7 @@ const OrganizingChair = () => {
             <div className="h-96 w-72">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-1 group-hover:scale-125"
-                src="../assets/pic2.jpg"
+                src="https://ibb.co/yRF1vFp"
                 alt=""
               />
             </div>
@@ -73,7 +73,7 @@ const OrganizingChair = () => {
             <div className="h-96 w-72">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-1 group-hover:scale-125"
-                src="../assets/pic3.jpg"
+                src="https://ibb.co/Db4MDnc"
                 alt=""
               />
             </div>
@@ -94,7 +94,7 @@ const OrganizingChair = () => {
             <div className="h-96 w-72">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-1 group-hover:scale-125"
-                src="../assets/pic4.jpg"
+                src="https://ibb.co/Y3xLrFS"
                 alt=""
               />
             </div>
