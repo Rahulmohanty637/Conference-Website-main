@@ -37,7 +37,7 @@ const ChiefPatron = () => {
             <div className="h-96 w-72">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-1 group-hover:scale-125"
-                src="https://thegttech.com/wp-content/uploads/2023/09/DN_Rao-300x300.png"
+                src="../../assets/pic2.jpg"
                 alt=""
               />
             </div>
