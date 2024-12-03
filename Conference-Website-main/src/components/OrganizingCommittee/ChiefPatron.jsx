@@ -16,7 +16,7 @@ const ChiefPatron = () => {
             <div className="h-96 w-72">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-1 group-hover:scale-125"
-                src="../../assets/pic1.jpg"
+                src="https://ibb.co/HGfXCmk"
                 alt=""
               />
             </div>
@@ -37,7 +37,7 @@ const ChiefPatron = () => {
             <div className="h-96 w-72">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-1 group-hover:scale-125"
-                src="../../assets/pic2.jpg"
+                src="https://ibb.co/yRF1vFp"
                 alt=""
               />
             </div>
