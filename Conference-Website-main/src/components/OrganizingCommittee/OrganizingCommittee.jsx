@@ -21,7 +21,7 @@ const OrganizingChair = () => {
             <div className="h-96 w-72">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-1 group-hover:scale-125"
-                src="https://thegttech.com/wp-content/uploads/2023/09/Mukti_Mishra.png"
+                src="../../assets/pic1.jpg"
                 alt=""
               />
             </div>
@@ -42,7 +42,7 @@ const OrganizingChair = () => {
             <div className="h-96 w-72">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-1 group-hover:scale-125"
-                src="https://thegttech.com/wp-content/uploads/2023/09/DN_Rao-300x300.png"
+                src="../../assets/pic2.jpg"
                 alt=""
               />
             </div>
@@ -73,7 +73,7 @@ const OrganizingChair = () => {
             <div className="h-96 w-72">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-1 group-hover:scale-125"
-                src="https://centurionuniv.edu.in/faculty/public/images/1599715559.jpg"
+                src="../../assets/pic3.jpg"
                 alt=""
               />
             </div>
@@ -94,7 +94,7 @@ const OrganizingChair = () => {
             <div className="h-96 w-72">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-1 group-hover:scale-125"
-                src="https://cutm.ac.in/wp-content/uploads/2020/01/arpita-mam.jpg"
+                src="../../assets/pic4.jpg"
                 alt=""
               />
             </div>
