@@ -77,11 +77,11 @@ function Navbar() {
             className="w-[100px] h-[100px] object-contain md:w-32"
           />
         </a>
-        <div className="flex items-center space-y-2 lg:ml-1 ml-3">                
-          <p className="text-sm lg:text-1xl neuton-regular font-medium text-black ">
+        <div className="space-y-2 lg:ml-1 ml-3">                
+          <p className="text-sm lg:text-3xl neuton-regular font-medium text-black ">
             2025 International Conference on
           </p>
-          <h1 className="text-lg neuton-bold font-semibold md:text-2xl lg:text-2xl">
+          <h1 className="text-lg neuton-bold font-semibold md:text-4xl lg:text-4xl">
             Responsible, Generative and Explainable AI (ResGenXAI)
           </h1>
         </div>
