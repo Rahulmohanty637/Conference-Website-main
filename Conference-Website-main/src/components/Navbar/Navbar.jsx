@@ -74,7 +74,7 @@ function Navbar() {
           <img
             src={logo}
             alt="logo"
-            className="w-[154px] h-[154px] object-contain md:w-32"
+            className="w-[100px] h-[100px] object-contain md:w-32"
           />
         </a>
         <div className="space-y-2 lg:ml-1 ml-3">
@@ -88,7 +88,7 @@ function Navbar() {
         <img
             src={logo1}
             alt="logo1"
-            className="w-[180px] h-[180px] object-contain md:w-32"
+            className="w-[120px] h-[120px] object-contain md:w-32"
           />
       </header>
       <nav className="sticky top-0 shadow-md w-full border border-gray-400 z-50 bg-gray-400">
