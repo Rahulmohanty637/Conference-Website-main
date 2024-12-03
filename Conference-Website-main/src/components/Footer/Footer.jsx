@@ -36,7 +36,7 @@ const Footer = () => {
             <img src="" alt="" className="w-16 " />
 
           </div>
-          <div className="sm:block hidden">Contact us: +91 7978029866, saneev.das@cutm.ac.in</div>
+          <div className="sm:block ">Contact us: +91 7978029866, saneev.das@cutm.ac.in</div>
           <nav className="hidden md:block">
            
           </nav>
