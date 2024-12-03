@@ -220,6 +220,22 @@ const AuthorGuidelines = () => {
             structure, peer review, and publication essentials.
           </p>
         </section>
+         <section className="mb-8 heading">
+          <h2 className="text-2xl font-semibold text-gray-700 mb-4">
+            Paper Submission
+          </h2>
+          <p className="text-gray-500 font-normal leading-relaxed">
+            To submit your article {" "}
+            <a
+              //href=""
+              className="text-blue-600 underline"
+            >
+              Will update the link soon. 
+            </a>{" "}
+            The <a href="https://cmt3.research.microsoft.com">
+            Microsoft CMT service</a> was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+          </p>
+        </section>
       </div>
       <Footer />
     </div>
