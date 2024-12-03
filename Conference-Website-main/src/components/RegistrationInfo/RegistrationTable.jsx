@@ -70,28 +70,6 @@ const RegistrationTable = () => {
               <td className="border px-4 py-2">1,000 INR</td>
               <td className="border px-4 py-2">150 USD</td>
             </tr>
-            <tr>
-              <td className="border px-4 py-2">
-                Co-Author Additional Certificate - Student / Research Scholar
-                (Full Time)
-              </td>
-              <td className="border px-4 py-2">3,000 INR</td>
-              <td className="border px-4 py-2">150 USD</td>
-            </tr>
-            <tr className="bg-gray-100">
-              <td className="border px-4 py-2">
-                Co-Author Additional Certificate - Academician
-              </td>
-              <td className="border px-4 py-2">3,500 INR</td>
-              <td className="border px-4 py-2">200 USD</td>
-            </tr>
-            <tr>
-              <td className="border px-4 py-2">
-                Co-Author Additional Certificate - Industry
-              </td>
-              <td className="border px-4 py-2">4,000 INR</td>
-              <td className="border px-4 py-2">200 USD</td>
-            </tr>
           </tbody>
         </table>
       </div>
