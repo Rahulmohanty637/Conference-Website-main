@@ -21,14 +21,14 @@ const RegistrationTable = () => {
           <tbody>
             <tr className="bg-gray-100">
               <td className="border px-4 py-2">
-                IEEE Members - Student / Research Scholar (Full Time)
+                IEEE Members - Student / Research Scholar
               </td>
               <td className="border px-4 py-2">6,500 INR</td>
               <td className="border px-4 py-2">350 USD</td>
             </tr>
             <tr>
               <td className="border px-4 py-2">
-                Non Members - Student / Research Scholar (Full Time)
+                Non Members - Student / Research Scholar
               </td>
               <td className="border px-4 py-2">7,500 INR</td>
               <td className="border px-4 py-2">450 USD</td>
@@ -55,19 +55,19 @@ const RegistrationTable = () => {
             </tr>
             <tr className="bg-gray-100">
               <td className="border px-4 py-2">
-                Delegate - Student / Research Scholar (Full Time)
+                Attendee - Student / Research Scholar
               </td>
+              <td className="border px-4 py-2">1,000 INR</td>
+              <td className="border px-4 py-2">120 USD</td>
+            </tr>
+            <tr>
+              <td className="border px-4 py-2">Attendee - Academician</td>
               <td className="border px-4 py-2">1,500 INR</td>
               <td className="border px-4 py-2">150 USD</td>
             </tr>
-            <tr>
-              <td className="border px-4 py-2">Delegate - Academician</td>
-              <td className="border px-4 py-2">1,000 INR</td>
-              <td className="border px-4 py-2">150 USD</td>
-            </tr>
             <tr className="bg-gray-100">
-              <td className="border px-4 py-2">Delegate - Industry</td>
-              <td className="border px-4 py-2">1,000 INR</td>
+              <td className="border px-4 py-2">Attendee - Industry</td>
+              <td className="border px-4 py-2">1,500 INR</td>
               <td className="border px-4 py-2">150 USD</td>
             </tr>
           </tbody>
