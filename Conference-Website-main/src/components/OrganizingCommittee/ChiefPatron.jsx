@@ -16,7 +16,7 @@ const ChiefPatron = () => {
             <div className="h-96 w-72">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-1 group-hover:scale-125"
-                src="https://thegttech.com/wp-content/uploads/2023/09/Mukti_Mishra.png"
+                src="../../assets/pic1.jpg"
                 alt=""
               />
             </div>
