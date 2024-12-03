@@ -51,7 +51,7 @@ const ITPC = () => {
       title: "Technical Program Chair",
       name: "Dr. Tapan Kumar Gandhi",
       position: "Associate Professor",
-      department: "SDepartment of Electrical Engineering",
+      department: "Department of Electrical Engineering",
       organization:
         "Indian Institute of Technology, Delhi",
       image: Male,
