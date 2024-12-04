@@ -34,14 +34,14 @@ const Hero = () => {
               Advancing AI with Responsibility, Creativity, and Transparency{" "}
             </p>
             <h3 data-aos="fade-up" data-aos-delay="500" className="text-2xl md:text-3xl">September 10 - September 12, 2025 | Bhubaneswar, Odisha</h3>
-            <button
+{/*             <button
               data-aos="fade-up"
               data-aos-delay="700"
               data-aos-once={"true"}
               className="primary-btn"
             >
               Get Started
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
