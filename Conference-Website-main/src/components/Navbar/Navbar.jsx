@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import logo from "../../assets/Logo for the website.png";
 import logo1 from "../../assets/Logo_ResGenXAI.png";
+import logo2 from "../../assets/ieee.png";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
@@ -9,18 +10,18 @@ function Navbar() {
   const links = [
     { name: "Home", link: "/" },
     {
-      name: "Calls",
-      link: "",
-      submenu: [
-        {
-          name: "Call for Papers",
-          link: "/callForPapers",
-          external: false,
-        },
-      ],
+      name: "Call for Papers",
+      link: "/callForPapers",
+      // submenu: [
+      //   {
+      //     name: "Call for Papers",
+      //     link: "/callForPapers",
+      //     external: false,
+      //   },
+      // ],
     },
     {
-      name: "Author Guidelines",
+      name: "Author & Reviewer Guidelines",
       link: "/authorguidelines",
     },
     {
@@ -32,7 +33,7 @@ function Navbar() {
           link: "/",
           external: false,
         },
-        { name: "Code of Conduct", link: "/", external: false },
+        { name: "Code of Conduct", link: "/codeofconduct", external: false },
         { name: "Program Overview", link: "/", external: false },
       ],
     },
@@ -77,19 +78,24 @@ function Navbar() {
             className="w-[100px] h-[100px] object-contain md:w-32"
           />
         </a>
-        <div className="space-y-2 lg:ml-1 ml-3">                
-          <p className="text-sm lg:text-3xl neuton-regular font-medium text-black ">
+        <div className="flex flex-col items-center space-y-2 lg:ml-1 ml-3 justify-center ">
+          <img
+            src={logo1}
+            alt="logo1"
+            className="w-[120px] h-auto object-contain md:w-32"
+          />
+          <p className="text-sm lg:text-2xl neuton-regular font-medium text-black text-center">
             2025 International Conference on
           </p>
-          <h1 className="text-lg neuton-bold font-semibold md:text-4xl lg:text-4xl">
+          <h1 className="text-lg neuton-bold font-semibold md:text-3xl lg:text-3xl text-center">
             Responsible, Generative and Explainable AI (ResGenXAI)
           </h1>
         </div>
         <img
-            src={logo1}
-            alt="logo1"
-            className="w-[120px] h-[120px] object-contain md:w-32"
-          />
+          src={logo2}
+          alt="ieee logo"
+          className="w-[120px] h-auto object-contain md:w-36"
+        />
       </header>
       <nav className="sticky top-0 shadow-md w-full border border-gray-400 z-50 bg-gray-400">
         <div className="container mx-4 px-4">
@@ -189,14 +195,14 @@ function Navbar() {
                 </Link>
               </li>
             </ul>
-            <Link
+            {/* <Link
               to="https://forms.zohopublic.in/rahulmohanty637/form/ReviewerForm/formperma/-FMox_h3vHZLZkoXlDCxdnD0e7aNICOifwJXlHRj2hI"
               className="hidden md:block"
             >
               <button className="btn bg-purple-600 text-base text-white font-semibold px-3 py-1 rounded duration-500 hover:bg-[#c9379b] w-full">
                 Register Now
               </button>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </nav>
