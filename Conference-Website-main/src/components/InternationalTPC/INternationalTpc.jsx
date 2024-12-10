@@ -190,7 +190,7 @@ const INternationalTpc = () => {
                 Registration Form
               </h2>
               <div className="flex">
-                <Link to="https://forms.zohopublic.in/rahulmohanty637/form/ReviewerForm/formperma/-FMox_h3vHZLZkoXlDCxdnD0e7aNICOifwJXlHRj2hI">
+                <Link to="https://forms.zohopublic.in/saneevdas061995gm1/form/ReviewerRequestForm/formperma/mJGeeXTvBB656ZOOzWxFvXH4kLheJXg6rDNAI6myrsQ?zf_rszfm=1">
                   <button className="btn bg-purple-600 text-base text-white font-semibold px-3 py-1 rounded duration-500 hover:bg-[#a037c9] w-full">
                     Register Now
                   </button>
