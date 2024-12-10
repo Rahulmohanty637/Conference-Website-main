@@ -20,6 +20,7 @@ import INternationalTpc from "./components/InternationalTPC/INternationalTpc";
 import AuthorGuidelines from "./components/AuthorGuidelines/AuthorGuidelines";
 import OrganizingChair from "./components/OrganizingCommittee/OrganizingCommittee";
 import Gallery from "./components/SightSeeing/Gallery";
+import CodeOfConduct from "./components/CodeOfConduct";
 
 function App() {
   useEffect(() => {
