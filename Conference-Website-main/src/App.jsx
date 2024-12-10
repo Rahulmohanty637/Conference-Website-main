@@ -22,6 +22,7 @@ import ReviewerGuidelines from "./components/AuthorGuidelines/ReviewerGuidelines
 import OrganizingChair from "./components/OrganizingCommittee/OrganizingCommittee";
 import Gallery from "./components/SightSeeing/Gallery";
 import CodeOfConduct from "./components/CodeOfConduct/CodeOfConduct";
+import ComingSoon from "./ComingSoon";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -45,6 +46,7 @@ function App() {
         <Route path="/reviewerguidelines" element={<ReviewerGuidelines />} />
         <Route path="/organizingcommittee" element={<OrganizingChair />} />
         <Route path="/codeofconduct" element={<CodeOfConduct />} />
+        <Route path="/comingsoon" element={<ComingSoon />} />
       </Route>
     )
   );
