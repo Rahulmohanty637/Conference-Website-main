@@ -195,7 +195,7 @@ const INternationalTpc = () => {
                     Register Now
                   </button>
                   <div className="text-center mt-2">OR</div>
-                  <img src={form} alt=""></img>
+                  <img src={form} className="h-[50] w-[50]" alt=""></img>
                 </Link>
               </div>
             </div>
