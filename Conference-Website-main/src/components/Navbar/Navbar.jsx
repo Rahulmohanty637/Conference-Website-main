@@ -38,11 +38,11 @@ function Navbar() {
       submenu: [
         {
           name: "Register",
-          link: "/",
+          link: "/comingsoon",
           external: false,
         },
         { name: "Code of Conduct", link: "/codeofconduct", external: false },
-        { name: "Program Overview", link: "/", external: false },
+        { name: "Program Overview", link: "/comingsoon", external: false },
       ],
     },
     {
@@ -56,7 +56,7 @@ function Navbar() {
         },
         {
           name: "International TPC",
-          link: "/internationaltpc",
+          link: "/comingsoon",
           external: false,
         },
       ],
@@ -102,7 +102,7 @@ function Navbar() {
         <img
           src={logo2}
           alt="ieee logo"
-          className="w-[120px] h-auto object-contain md:w-56"
+          className="w-[120px] h-auto object-contain md:w-56  bg-red-200 "
         />
       </header>
       <nav className="sticky top-0 shadow-md w-full border border-gray-400 z-50 bg-gray-400">
@@ -219,95 +219,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
-// export const links = [
-//   {
-//     name: "Home",
-//     link: "/home",
-//   },
-//   {
-//     name: "About",
-//     submenu: true,
-//     sublinks: [
-//       {
-//         Head: "About the Conference",
-//         sublink: [
-//           { name: "About the Conference", link: "/about/conference" },
-//           { name: "Organizers", link: "/about/organizers" },
-//           { name: "Committees", link: "/about/committees" },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     name: "Program",
-//     submenu: true,
-//     sublinks: [
-//       {
-//         Head: "Program",
-//         sublink: [
-//           { name: "Schedule", link: "/program/schedule" },
-//           { name: "Keynote Speakers", link: "/program/keynotes" },
-//           { name: "Workshops", link: "/program/workshops" },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     name: "Call for Papers",
-//     submenu: true,
-//     sublinks: [
-//       {
-//         Head: "Call for Papers",
-//         sublink: [
-//           { name: "Submission Guidelines", link: "/callforpapers/guidelines" },
-//           { name: "Important Dates", link: "/callforpapers/dates" },
-//           { name: "Tracks", link: "/callforpapers/tracks" },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     name: "Registration",
-//     submenu: true,
-//     sublinks: [
-//       {
-//         Head: "Registration",
-//         sublink: [
-//           { name: "Registration Fees", link: "/registration/fees" },
-//           { name: "Registration Form", link: "/registration/form" },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     name: "Venue",
-//     submenu: true,
-//     sublinks: [
-//       {
-//         Head: "Venue",
-//         sublink: [
-//           { name: "Location", link: "/venue/location" },
-//           { name: "Accommodation", link: "/venue/accommodation" },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     name: "Sponsors",
-//     submenu: true,
-//     sublinks: [
-//       {
-//         Head: "Sponsors",
-//         sublink: [
-//           { name: "Sponsorship Opportunities", link: "/sponsors/opportunities" },
-//           { name: "Current Sponsors", link: "/sponsors/current" },
-//         ],
-//       },
-//     ],
-//   },
-//   {
-//     name: "Contact",
-//     link: "/contact",
-//   },
-// ];
