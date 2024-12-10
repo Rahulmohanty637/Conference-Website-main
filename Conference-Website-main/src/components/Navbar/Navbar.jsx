@@ -102,7 +102,7 @@ function Navbar() {
         <img
           src={logo2}
           alt="ieee logo"
-          className="w-[120px] h-auto object-contain md:w-36"
+          className="w-[180px] h-[180px] auto object-contain md:w-44"
         />
       </header>
       <nav className="sticky top-0 shadow-md w-full border border-gray-400 z-50 bg-gray-400">
