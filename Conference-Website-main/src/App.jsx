@@ -18,6 +18,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import INternationalTpc from "./components/InternationalTPC/INternationalTpc";
 import AuthorGuidelines from "./components/AuthorGuidelines/AuthorGuidelines";
+import ReviewerGuidelines from "./components/AuthorGuidelines/ReviewerGuidelines";
 import OrganizingChair from "./components/OrganizingCommittee/OrganizingCommittee";
 import Gallery from "./components/SightSeeing/Gallery";
 import CodeOfConduct from "./components/CodeOfConduct/CodeOfConduct";
@@ -41,6 +42,7 @@ function App() {
         <Route path="/sightseeing" element={<Gallery />} />
         <Route path="/internationaltpc" element={<INternationalTpc />} />
         <Route path="/authorguidelines" element={<AuthorGuidelines />} />
+        <Route path="/reviewerguidelines" element={<ReviewerGuidelines />} />
         <Route path="/organizingcommittee" element={<OrganizingChair />} />
         <Route path="/codeofconduct" element={<CodeOfConduct />} />
       </Route>
