@@ -6,7 +6,7 @@ const ComingSoon = () => {
     <div className="bg-white text-black overflow-x-hidden">
       <Navbar />
       <div
-        className="relative flex items-center justify-center h-screen bg-cover bg-center"
+        className="relative flex items-center justify-center h-[90vh] bg-cover bg-center"
         style={{
           backgroundImage: `url(${BannerImg1})`,
         }}
