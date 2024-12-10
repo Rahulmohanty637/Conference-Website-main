@@ -20,7 +20,7 @@ import INternationalTpc from "./components/InternationalTPC/INternationalTpc";
 import AuthorGuidelines from "./components/AuthorGuidelines/AuthorGuidelines";
 import OrganizingChair from "./components/OrganizingCommittee/OrganizingCommittee";
 import Gallery from "./components/SightSeeing/Gallery";
-
+import CodeOfConduct from "./components/CodeOfConduct/CodeOfConduct";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -42,6 +42,7 @@ function App() {
         <Route path="/internationaltpc" element={<INternationalTpc />} />
         <Route path="/authorguidelines" element={<AuthorGuidelines />} />
         <Route path="/organizingcommittee" element={<OrganizingChair />} />
+        <Route path="/codeofconduct" element={<CodeOfConduct />} />
       </Route>
     )
   );
