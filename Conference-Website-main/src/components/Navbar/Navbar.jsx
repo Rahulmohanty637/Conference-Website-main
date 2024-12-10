@@ -22,7 +22,15 @@ function Navbar() {
     },
     {
       name: "Author & Reviewer Guidelines",
-      link: "/authorguidelines",
+      link: "/",
+       submenu: [
+        {
+          name: "Author Guidelines",
+          link: "/authorguidelines",
+          external: false,
+        },
+        { name: "Reviewer Guidelines", link: "/reviewerguidelines", external: false },
+      ],
     },
     {
       name: "Attend",
