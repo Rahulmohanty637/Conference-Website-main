@@ -90,7 +90,7 @@ function Navbar() {
           <img
             src={logo1}
             alt="logo1"
-            className="w-[120px] h-auto object-contain md:w-32"
+            className="w-[180px] h-auto object-contain md:w-44 md:h-52"
           />
           <p className="text-sm lg:text-2xl neuton-regular font-medium text-black text-center">
             2025 International Conference on
