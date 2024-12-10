@@ -83,14 +83,14 @@ function Navbar() {
           <img
             src={logo}
             alt="logo"
-            className="w-[100px] h-[100px] object-contain md:w-32"
+            className="w-[100px] h-[100px] object-contain md:w-44"
           />
         </a>
         <div className="flex flex-col items-center space-y-2 lg:ml-1 ml-3 justify-center ">
           <img
             src={logo1}
             alt="logo1"
-            className="w-[120px] h-auto object-contain md:w-32"
+            className="w-[120px] h-auto object-contain md:w-44"
           />
           <p className="text-sm lg:text-2xl neuton-regular font-medium text-black text-center">
             2025 International Conference on
