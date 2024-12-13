@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import { Link } from "react-router-dom";
-import form from "../../assets/reg.png";
 
 const INternationalTpc = () => {
   return (
@@ -195,7 +194,7 @@ const INternationalTpc = () => {
                     Register Now
                   </button>
                   <div className="text-center mt-2">OR</div>
-                  <img src={form} alt=""></img>
+                  <img src={"/reg.png"} alt=""></img>
                 </Link>
               </div>
             </div>
