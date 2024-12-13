@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import { Link } from "react-router-dom";
-import form from "../../assets/regqr.png";
+import form from "../../assets/reg.png";
 
 const INternationalTpc = () => {
   return (
