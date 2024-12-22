@@ -50,12 +50,82 @@ function Navbar() {
       link: "/",
       submenu: [
         {
-          name: "Organizing Committee",
+          name: "Patron",
           link: "/organizingcommittee",
           external: false,
         },
         {
-          name: "International TPC",
+          name: "Organizing Committee",
+          link: "/comingsoon",
+          external: false,
+        },
+        {
+          name: "Steering Committee",
+          link: "/comingsoon",
+          external: false,
+        },
+        {
+          name: "Executive Chairs",
+          link: "/comingsoon",
+          external: false,
+        },
+        {
+          name: "Program Chairs",
+          link: "/comingsoon",
+          external: false,
+        },
+        {
+          name: "Finance Chairs",
+          link: "/comingsoon",
+          external: false,
+        },
+        {
+          name: "Publication Chairs",
+          link: "/comingsoon",
+          external: false,
+        },
+        {
+          name: "Sponsorship Chairs",
+          link: "/comingsoon",
+          external: false,
+        },
+        {
+          name: "Publicity Chairs",
+          link: "/comingsoon",
+          external: false,
+        },
+        {
+          name: "National Advisory Committee",
+          link: "/comingsoon",
+          external: false,
+        },
+        {
+          name: "International Advisory Committee",
+          link: "/comingsoon",
+          external: false,
+        },
+        {
+          name: "Program Chairs",
+          link: "/comingsoon",
+          external: false,
+        },
+        {
+          name: "Workshop/ Tutorial Chairs",
+          link: "/comingsoon",
+          external: false,
+        },
+        {
+          name: "Supporting Chair Members",
+          link: "/comingsoon",
+          external: false,
+        },
+        {
+          name: "Technical Committee",
+          link: "/comingsoon",
+          external: false,
+        },
+        {
+          name: "Local Advisory Committee",
           link: "/comingsoon",
           external: false,
         },
