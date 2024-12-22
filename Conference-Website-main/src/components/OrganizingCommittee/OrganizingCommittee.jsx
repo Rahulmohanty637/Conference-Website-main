@@ -112,6 +112,11 @@ const OrganizingChair = () => {
             </div>
           </div>
         </div>
+      </div>
+      {/* <ProfileGrid /> */}
+      <ITPC />
+      <Footer />
+    </div>
   );
 };
 
