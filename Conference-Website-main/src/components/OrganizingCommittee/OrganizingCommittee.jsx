@@ -2,7 +2,7 @@
 import React from "react";
 import ProfileGrid from "./ProfileGrid";
 import Navbar from "../Navbar/Navbar";
-//import ITPC from "./ITPC";
+import ITPC from "./ITPC";
 import Footer from "../Footer/Footer";
 
 const OrganizingChair = () => {
