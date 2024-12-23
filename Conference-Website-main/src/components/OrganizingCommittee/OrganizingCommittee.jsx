@@ -21,7 +21,7 @@ const OrganizingChair = () => {
             <div className="h-96 w-72">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-1 group-hover:scale-125"
-                src="https://i.ibb.co/j3PHz71/pic1.jpg"
+                src="https://i.ibb.co/W2SRs9Y/professor.webp"
                 alt=""
               />
             </div>
