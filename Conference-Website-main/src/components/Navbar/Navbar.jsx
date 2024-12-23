@@ -23,13 +23,17 @@ function Navbar() {
     {
       name: "Author & Reviewer Guidelines",
       link: "/",
-       submenu: [
+      submenu: [
         {
           name: "Author Guidelines",
           link: "/authorguidelines",
           external: false,
         },
-        { name: "Reviewer Guidelines", link: "/reviewerguidelines", external: false },
+        {
+          name: "Reviewer Guidelines",
+          link: "/reviewerguidelines",
+          external: false,
+        },
       ],
     },
     {
@@ -46,7 +50,7 @@ function Navbar() {
       ],
     },
     {
-      name: "Organization",
+      name: "Committees",
       link: "/",
       submenu: [
         {
@@ -54,81 +58,97 @@ function Navbar() {
           link: "/organizingcommittee",
           external: false,
         },
+
         {
-          name: "Organizing Committee",
+          name: "International",
           link: "/comingsoon",
           external: false,
         },
         {
-          name: "Steering Committee",
+          name: "National",
           link: "/comingsoon",
           external: false,
         },
         {
-          name: "Executive Chairs",
+          name: "Local",
           link: "/comingsoon",
           external: false,
         },
-        {
-          name: "Program Chairs",
-          link: "/comingsoon",
-          external: false,
-        },
-        {
-          name: "Finance Chairs",
-          link: "/comingsoon",
-          external: false,
-        },
-        {
-          name: "Publication Chairs",
-          link: "/comingsoon",
-          external: false,
-        },
-        {
-          name: "Sponsorship Chairs",
-          link: "/comingsoon",
-          external: false,
-        },
-        {
-          name: "Publicity Chairs",
-          link: "/comingsoon",
-          external: false,
-        },
-        {
-          name: "National Advisory Committee",
-          link: "/comingsoon",
-          external: false,
-        },
-        {
-          name: "International Advisory Committee",
-          link: "/comingsoon",
-          external: false,
-        },
-        {
-          name: "Program Chairs",
-          link: "/comingsoon",
-          external: false,
-        },
-        {
-          name: "Workshop/ Tutorial Chairs",
-          link: "/comingsoon",
-          external: false,
-        },
-        {
-          name: "Supporting Chair Members",
-          link: "/comingsoon",
-          external: false,
-        },
-        {
-          name: "Technical Committee",
-          link: "/comingsoon",
-          external: false,
-        },
-        {
-          name: "Local Advisory Committee",
-          link: "/comingsoon",
-          external: false,
-        },
+        // {
+        //   name: "Organizing Committee",
+        //   link: "/comingsoon",
+        //   external: false,
+        // },
+        // {
+        //   name: "Steering Committee",
+        //   link: "/comingsoon",
+        //   external: false,
+        // },
+        // {
+        //   name: "Executive Chairs",
+        //   link: "/comingsoon",
+        //   external: false,
+        // },
+        // {
+        //   name: "Program Chairs",
+        //   link: "/comingsoon",
+        //   external: false,
+        // },
+        // {
+        //   name: "Finance Chairs",
+        //   link: "/comingsoon",
+        //   external: false,
+        // },
+        // {
+        //   name: "Publication Chairs",
+        //   link: "/comingsoon",
+        //   external: false,
+        // },
+        // {
+        //   name: "Sponsorship Chairs",
+        //   link: "/comingsoon",
+        //   external: false,
+        // },
+        // {
+        //   name: "Publicity Chairs",
+        //   link: "/comingsoon",
+        //   external: false,
+        // },
+        // {
+        //   name: "National Advisory Committee",
+        //   link: "/comingsoon",
+        //   external: false,
+        // },
+        // {
+        //   name: "International Advisory Committee",
+        //   link: "/comingsoon",
+        //   external: false,
+        // },
+        // {
+        //   name: "Program Chairs",
+        //   link: "/comingsoon",
+        //   external: false,
+        // },
+        // {
+        //   name: "Workshop/ Tutorial Chairs",
+        //   link: "/comingsoon",
+        //   external: false,
+        // },
+        // {
+        //   name: "Supporting Chair Members",
+        //   link: "/comingsoon",
+        //   external: false,
+        // },
+        // {
+        //   name: "Technical Committee",
+        //   link: "/comingsoon",
+        //   external: false,
+        // },
+        // {
+        //   name: "Local Advisory Committee",
+        //   link: "/comingsoon",
+        //   external: false,
+        // },
       ],
     },
     { name: "Sight Seeing", link: "/sightseeing" },

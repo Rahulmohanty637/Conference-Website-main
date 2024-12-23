@@ -67,7 +67,10 @@ const OrganizingChair = () => {
       >
         Patron
       </h1>
-      <div data-aos="fade-up" className="flex pt-8 items-center justify-center">
+      <div
+        data-aos="fade-up"
+        className="flex pt-8 items-center justify-center mb-10"
+      >
         <div className="grid grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-2">
           <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
             <div className="h-96 w-72">
@@ -114,7 +117,7 @@ const OrganizingChair = () => {
         </div>
       </div>
       {/* <ProfileGrid /> */}
-      <ITPC />
+      {/* <ITPC /> */}
       <Footer />
     </div>
   );
