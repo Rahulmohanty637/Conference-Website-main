@@ -70,12 +70,12 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-     <div className="relative z-10 flex mt-[150px] justify-center h-full text-center text-white px-4">
+    <div className="relative z-10 flex mt-[150px] justify-center h-full text-center text-white px-4">
   <div className="space-y-5">
-    <p className="text-gray-500 font-bold text-2xl" data-aos="fade-up">
+    <p className="text-white font-bold text-2xl" data-aos="fade-up">
       IEEE Conference Record #64788
     </p>
-    <p className="text-gray-500 font-bold text-2xl" data-aos="fade-up">
+    <p className="text-white font-bold text-2xl" data-aos="fade-up">
       2025 International Conference on
     </p>
           <h1
