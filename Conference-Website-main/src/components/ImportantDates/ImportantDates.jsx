@@ -15,7 +15,7 @@ const ImportantDates = () => {
         <AiOutlineFileDone className="max-w-[200px] w-16 h-16 mx-auto hover:scale-110 duration-300 img-shadow " />
       ),
       title: "Final Submission of manuscripts for review (Full Paper)",
-      date: "20th April, 2025",
+      date: "20th May, 2025",
     },
     {
       id: 2,
