@@ -23,7 +23,7 @@ const ImportantDates = () => {
         <AiOutlineCheckCircle className="max-w-[200px] w-16 h-16 mx-auto hover:scale-110 duration-300 img-shadow" />
       ),
       title: "Acceptance Notification",
-      date: "1st June, 2025",
+      date: "1st July, 2025",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const ImportantDates = () => {
         <AiOutlineCamera className="max-w-[200px] w-16 h-16 mx-auto hover:scale-110 duration-300 img-shadow" />
       ),
       title: "Camera ready paper submission",
-      date: "30th June, 2025",
+      date: "30th July, 2025",
     },
     {
       id: 4,
@@ -39,7 +39,7 @@ const ImportantDates = () => {
         <AiOutlineCalendar className="max-w-[200px] w-16 h-16 mx-auto hover:scale-110 duration-300 img-shadow" />
       ),
       title: "Last Date of Registration",
-      date: "31st July, 2025",
+      date: "20th August, 2025",
     }
   ];
 
