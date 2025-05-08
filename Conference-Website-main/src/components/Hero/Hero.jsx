@@ -72,7 +72,7 @@ const Hero = () => {
       {/* Content */}
     <div className="relative z-10 flex mt-[150px] justify-center h-full text-center text-white px-4">
   <div className="space-y-5">
-    <p className="text-white font-bold text-2xl" data-aos="fade-up">
+    <p className="text-white font-extrabold text-3xl" data-aos="fade-up">
       IEEE Conference Record #64788
     </p>
     <p className="text-white font-bold text-2xl" data-aos="fade-up">
